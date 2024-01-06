@@ -4,9 +4,9 @@ import './App.css'
 export default function About() {
     return (
         <div className=" md:mt-2 mt-16 sm:mt-4  h-screen  md:h-[90vh] fullGetScreen"  >
-            <div className= "  flex flex-col md:flex-row   border-b-2 ">
+            <div className= "  flex flex-col md:flex-row sm:pt-2 pt-11 border-b-2 ">
                 <div className="m-auto mt-[10%]">
-                    <div className="flex flex-col gap-y-3 ml-3">
+                    <div className="flex flex-col gap-y-3 ml-4">
                         <p className="text-blue-600 flex justify-center md:justify-start text-2xl font-semibold"> About Me&nbsp;👦🏻</p>
                         <p className=" sm:text-3xl text-justify font-bold">Elevating Code,<br /> Enhancing Experiences</p>
                         <p className=" text-gray-400 font-normal text-lg">Passionate about transforming  innovative ideas <br /> into polished, user-centric solutions through <br /> code and creativity.</p>

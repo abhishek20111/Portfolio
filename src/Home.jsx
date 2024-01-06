@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <div className=" h-full fullGetScreen">
             <div className="flex md:flex-row flex-col gap-10">
-                <div className="flex flex-col gap-y-3 mt-7 md:m-auto ml-[12px] sm:ml-[40px] md:ml-4 ">
+                <div className="flex flex-col gap-y-3 mt-7 md:m-auto ml-[12px] sm:ml-[40px] md:ml-8 ">
                     <div className="text-blue-600  text-lg font-semibold">Hey There 👋 I am</div>
                     <div className="text-4xl  md:text-5xl font-bold">Abhishek Kushwaha</div>
                     <div className=" font-semibold text-xl text-gray-700">Full Stack Developer <span className="text-gray-400">(MERN)</span> </div>
