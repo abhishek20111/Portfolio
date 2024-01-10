@@ -1,5 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import Card from './Card';
+import Fusio from './assets/fusio.jpg'
+import Legal from './assets/legal.png'
+import Real from './assets/real.png'
+import VChat from './assets/vcaht.png'
+import Bio from './assets/bio.png'
+import GLAthone from './assets/novus.png'
 
 export default function Projects() {
   const [currentPage, setCurrentPage] = useState(0);
@@ -8,36 +14,28 @@ export default function Projects() {
 
   const data = [
     {
-      img: "image1.jpg",
+      img: Legal,
       des: "Description 1",
     },
     {
-      img: "image2.jpg",
-      des: "Description 2",
+      img: Real,
+      des: "Onboarding Real Estate",
     },
     {
-      img: "image1.jpg",
-      des: "Description 3",
+      img: Bio,
+      des: "Biotech Club Webiste",
     },
     {
-      img: "image2.jpg",
-      des: "Description 4",
+      img: Fusio,
+      des: "E-learning platform",
     },
     {
-      img: "image1.jpg",
-      des: "Description 5",
+      img: VChat,
+      des: "V Chat",
     },
     {
-      img: "image2.jpg",
-      des: "Description 6",
-    },
-    {
-      img: "image1.jpg",
-      des: "Description 7",
-    },
-    {
-      img: "image2.jpg",
-      des: "Description 8",
+      img: GLAthone,
+      des: "Novus",
     },
 
   ];

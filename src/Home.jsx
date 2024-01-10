@@ -4,7 +4,7 @@ import my_Image from './assets/myImage.png'
 
 export default function Home() {
     return (
-        <div className=" h-full fullGetScreen">
+        <div id="home" className=" h-full fullGetScreen">
             <div className="flex md:flex-row flex-col gap-10">
                 <div className="flex flex-col gap-y-3 mt-7 md:m-auto ml-[12px] sm:ml-[40px] md:ml-8 ">
                     <div className="text-blue-600  text-lg font-semibold">Hey There 👋 I am</div>

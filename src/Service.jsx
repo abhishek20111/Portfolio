@@ -7,7 +7,7 @@ import Dynamic from './assets/dynamic.gif'
 
 export default function Service() {
   return (
-    <div className=" md:mt-2 mt-16 sm:mt-4  h-screen  md:h-[90vh] fullGetScreen">
+    <div id='service' className=" md:mt-2 mt-16 sm:mt-4  h-screen  md:h-[90vh] fullGetScreen">
       <div className='flex flex-col'>
         <div className='m-auto my-5 flex gap-3 flex-col '>
           <p className='text-blue-600 flex justify-center text-2xl font-semibold'>What I Offer? 🤔</p>
