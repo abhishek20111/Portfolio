@@ -8,7 +8,6 @@ import Service from './Service'
 import Projects from './Projects'
 import {  Route, Routes } from 'react-router-dom'
 import Skills from './Skills'
-import ShowProject from './ShowProject'
 
 export default function App() {
   function AppRoutes() {
