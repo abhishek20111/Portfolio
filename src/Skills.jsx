@@ -1,5 +1,4 @@
 import React from 'react';
-import my_Image from './assets/myImage.png'
 import Js from './assets/js.gif'
 import ReactIcon from './assets/react.gif'
 import Node from './assets/node.gif'

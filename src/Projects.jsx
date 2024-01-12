@@ -15,27 +15,45 @@ export default function Projects() {
   const data = [
     {
       img: Legal,
-      des: "Description 1",
+      title: "Legal Service Provider",
+      description: ['Legal services platform serving as a vital intermediary between legal service providers and clients,facilitating seamless communication and collaboration', 'React.js, Socket.io, Redux Toolkit, Tailwind CSS, MongoDB, Node.js, Express, Jsonwebtoken, bcrypt.'],
+      url:'https://legalease.onrender.com/',
+      github:'https://github.com/abhishek20111/LegalEase'
     },
     {
       img: Real,
-      des: "Onboarding Real Estate",
+      title: "Onboarding Real Estate",
+      description:['Developed a feature-rich website with comprehensive functionalities, including role-based accesscontrol, dynamic form management, and robust CRUD operations on data', 'React.js, Redux Toolkit, MongoDB, Node.js, Express, jsonwebtoken, bcrypt, Tailwind CSS'],
+      url:'https://realestate-mljo.onrender.com/',
+      github:'https://github.com/abhishek20111/AeroqubeAss1'
     },
     {
       img: Bio,
-      des: "Biotech Club Webiste",
+      title: "Biotech Club Webiste",
+      description:['Developed a dynamic and responsive website for the biotech club of my college, showcasing events, resources, and information using the MERN stack','React.js, MongoDB, Node.js, Express, Tailwind CSS'],
+      url:'https://realestate-mljo.onrender.com/',
+      github:'https://github.com/abhishek20111/Biotech-GLAU'
     },
     {
       img: Fusio,
-      des: "E-learning platform",
+      title: "E-learning platform",
+      description:['Developed FusioTech, a dynamic E-Learning website that facilitates course uploads by instructors and enables students to purchase courses','Employed Tailwind CSS, React.js, bcrpyt, JWT token, Redux Toolkit. Implemented role-based access control'],
+      url:'https://realestate-mljo.onrender.com/',
+      github:'https://github.com/abhishek20111/FusioTech'
     },
     {
       img: VChat,
-      des: "V Chat",
+      title: "V Chat",
+      description:['dynamic fusion of Tinder, Omegle, and WhatsApp functionalities, offering interactive user experiences with secure connections and spontaneous interactions','Socket.io, MERN stack, Redux Toolkit, and WebRTC to ensure seamless real-time communication, robust state management'],
+      url:'https://realestate-mljo.onrender.com/',
+      github:'https://github.com/abhishek20111/VChat'
     },
     {
       img: GLAthone,
-      des: "Novus",
+      title: "Novus",
+      description:['Developed a versatile spam detection platform with capabilities for fraud number detection, SMS verification, and accurate scrutiny of crypto wallet activities for enhanced security','MERN stack, external APIs for fraud detection, SMS verification, and machine learning models ensure thorough security checks'],
+      url:'https://realestate-mljo.onrender.com/',
+      github:'https://github.com/abhishek20111/glathone'
     },
 
   ];
@@ -78,14 +96,14 @@ export default function Projects() {
     <div className='md:mt-2 mt-16 sm:mt-4  h-screen  md:h-[90vh] fullGetScreen'>
       <div className='flex flex-col '>
         <div className='m-auto my-5 flex gap-3 flex-col '>
-          <p className='text-blue-600 flex justify-center  text-2xl font-semibold'>Creative Portfolios</p>
-          <h2 className='sm:text-4xl justify-center flex font-bold'>Recent Works</h2>
+          <p className='text-blue-600 flex justify-center  text-2xl font-semibold'>Recent Works</p>
+          {/* <h2 className='sm:text-4xl justify-center flex font-bold'></h2> */}
           <p className='text-gray-400 font-normal   text-center text-xl'>A collection of digital creations that blend simplicity with impact,<br /> making the complex delightfully accessible</p>
         </div>
         <div className='md:mt-2 mt-20 sm:w-[80%] gap-3 flex w-[98%]  mx-auto bg-white'>
           {currentData.map((item, index) => (
             <div key={index} className='p-2'>
-              <Card key={item.img} img={item.img} des={item.des} />
+              <Card key={item.img} github={item.github} description={item.description} img={item.img} url={item.url} title={item.title} />
             </div>
           ))}
         </div>

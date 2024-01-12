@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import my_Image from './assets/myImage.png'
+import my_img from './assets/boy.png'
 
 export default function Home() {
     return (
@@ -16,12 +16,16 @@ export default function Home() {
                     </div>
 
                     <div className="flex gap-8 mt-5">
-                        <div className="text-white p-2 text-lg bg-blue-600 hover:shadow-lg cursor-pointer hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full  px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Contact Me</div>
-                        <div className="flex items-center p-2 hover:shadow-xl cursor-pointer text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-lg px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
-                            <span>About Me</span>
+                        <a href='mailto:whitecoder1@gmail.com' target='_blank' className="text-white p-2 text-lg bg-blue-600 hover:shadow-lg cursor-pointer hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full  px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            Contact Me</a>
+
+                        <a target="_blank" href="https://drive.google.com/file/d/1grtNBkQA4XwhbnJ8xPM2RiM98W-DCTGS/view?usp=drivesdk" 
+                        className="flex items-center p-2 hover:shadow-xl cursor-pointer text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-lg px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                            <div  >
+                                Resume
+                            </div>
                             <span className="material-symbols-outlined ml-2">thumb_up</span>
-                        </div>
+                        </a>
 
                     </div>
                 </div>
@@ -30,7 +34,7 @@ export default function Home() {
                     <div className="logo-container">
                         <div className="logo-background" />
                         <img
-                            src={my_Image}
+                            src={my_img}
                             alt="Logo"
                             className="logo-image"
                         />
