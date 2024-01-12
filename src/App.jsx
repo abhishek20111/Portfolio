@@ -3,14 +3,33 @@ import Contact from './Contact'
 import Home from './Home'
 import About from './About'
 import './App.css'
+import Navbar from './Navbar'
+import Service from './Service'
+import Projects from './Projects'
+import {  Route, Routes } from 'react-router-dom'
+import Skills from './Skills'
+import ShowProject from './ShowProject'
 
 export default function App() {
+  function AppRoutes() {
+    <Routes>
+      <Route path='/' element={<Home/>}></Route>
+      <Route path='/service' element={<Service/>}></Route>
+      <Route path='/about' element={<About/>}></Route>
+    </Routes>
+  }
+  AppRoutes()
   return (
-    <div className = "mainapp h-screen">
-      app
-      <Contact/>
-      <Home/>
-      <About/>
+  <>
+    <Navbar />
+    <div className="mainapp max-h-screen h-screen md:h-[90vh]">
+      <Home />
+      <About />
+      <Service/>
+      <Projects/>
+      <Skills/>
+      <Contact />
     </div>
+  </>
   )
 }
