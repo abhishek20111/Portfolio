@@ -21,7 +21,7 @@ export default function App() {
   return (
   <>
     <Navbar />
-    <div className="mainapp max-h-screen h-screen md:h-[90vh]">
+    <div className="mainapp max-h-screen h-screen md:h-[90dvh]">
       <Home />
       <About />
       <Service/>

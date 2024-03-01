@@ -11,7 +11,7 @@ export default function Contact() {
     [Email, "Email", 'mailto:whitecoder1@gmail.com'],
   ]
   return (
-    <div className="fullGetScreen h-screen md:h-[90vh]">
+    <div className="fullGetScreen h-screen md:h-[90dvh]">
       <div className='flex flex-col'>
 
         <div className='m-auto my-5 flex gap-3 flex-col '>

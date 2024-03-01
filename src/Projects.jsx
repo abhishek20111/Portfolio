@@ -93,21 +93,21 @@ export default function Projects() {
 
 
   return (
-    <div className='md:mt-2 mt-16 sm:mt-4  h-screen  md:h-[90vh] fullGetScreen'>
+    <div className='md:mt-2 mt-16 sm:mt-4  h-screen  md:h-[90dvh] fullGetScreen'>
       <div className='flex flex-col '>
         <div className='m-auto my-5 flex gap-3 flex-col '>
           <p className='text-blue-600 flex justify-center  text-2xl font-semibold'>Recent Works</p>
           {/* <h2 className='sm:text-4xl justify-center flex font-bold'></h2> */}
           <p className='text-gray-400 font-normal   text-center text-xl'>A collection of digital creations that blend simplicity with impact,<br /> making the complex delightfully accessible</p>
         </div>
-        <div className='md:mt-2 mt-20 sm:w-[80%] gap-3 flex w-[98%]  mx-auto bg-white'>
+        <div className='border-2  p-2 md:mt-2 mt-20 sm:w-[80%] gap-3 flex w-[98%]  mx-auto bg-white'>
           {currentData.map((item, index) => (
             <div key={index} className='p-2'>
               <Card key={item.img} github={item.github} description={item.description} img={item.img} url={item.url} title={item.title} />
             </div>
           ))}
         </div>
-        <div className="flex justify-between mt-4  sm:w-[20%] w-[50%] m-auto">
+        <div className="flex justify-between mt-4 sm:w-[20%] w-[50%] m-auto">
           <button
             onClick={() => handlePageChange(currentPage - 1)}
             disabled={currentPage === 0}

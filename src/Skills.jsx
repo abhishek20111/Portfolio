@@ -29,7 +29,7 @@ const Skills = () => {
         [Docker, 'Docker']
     ];
     return (
-        <div className="md:mt-2 mt-16 sm:mt-4 h-screen md:h-[90vh] fullGetScreen">
+        <div className="md:mt-2 mt-16 sm:mt-4 h-screen md:h-[90dvh] fullGetScreen">
             <div className="flex flex-col">
                 <div className="m-auto my-5 flex gap-3 flex-col">
                     <p className="text-blue-600 flex justify-center text-2xl font-semibold">My Technical Skills 🚀</p>

@@ -3,7 +3,7 @@ import './App.css'
 
 export default function About() {
     return (
-        <div id='about' className=" md:mt-2 mt-16 sm:mt-4  h-screen  md:h-[90vh] fullGetScreen"  >
+        <div id='about' className=" md:mt-2 mt-16 sm:mt-4  h-screen  md:h-[90dvh] fullGetScreen"  >
             <div className= "  flex flex-col md:flex-row sm:pt-2 pt-11 border-b-2 ">
                 <div className="m-auto mt-[10%]">
                     <div className="flex flex-col gap-y-3 ml-4">

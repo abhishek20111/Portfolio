@@ -7,11 +7,13 @@ export default function Card(props) {
 
     const showProjectDetails = () => {
         return (
-            <div className="h-screen md:h-[90vh] flex ">
+            <div className="h-screen md:h-[90dvh] flex ">
                 <div onClick={() => setOpen(!open)} className="bg-black  opacity-20 inset-0 fixed">
                 </div>
-                <div onClick={(event) => event.stopPropagation()} className="flex flex-col p-2 w-[90%] md:w-[80%] absolute left-12 md:left-[12%] top-[10%] md:h-[75vh]  h-[90vh]">
-                    <div className='w-full '><img onClick={() => setOpen(!open)} className=' ml-auto mb-3 h-8' src={Close} alt="" /> </div>
+                <div onClick={(event) => event.stopPropagation()} className="flex flex-col p-2 w-[90%] md:w-[80%] absolute left-12 md:left-[12%] top-[10%] md:h-[75vh]  h-[90dvh]">
+                    <div className='w-full '>
+                        <img onClick={() => setOpen(!open)} className=' ml-auto mb-3 h-8' src={Close} alt="" /> 
+                    </div>
                     <div className='bg-white h-full flex sm:flex-row flex-col p-2' >
                         <div className='w-[50%]  bg-black flex '>
                             <img src={props.img} className='m-auto ' alt="https://v1.tailwindcss.com/img/card-top.jpg" />

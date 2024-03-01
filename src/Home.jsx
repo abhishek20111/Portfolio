@@ -4,6 +4,7 @@ import my_img from './assets/boy.png'
 
 export default function Home() {
     return (
+        
         <div id="home" className=" h-full fullGetScreen">
             <div className="flex md:flex-row flex-col gap-10">
                 <div className="flex flex-col gap-y-3 mt-7 md:m-auto ml-[12px] sm:ml-[40px] md:ml-8 ">
