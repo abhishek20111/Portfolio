@@ -17,7 +17,7 @@ export default function Service() {
         </div>
 
         <>
-        <div  className='m-auto border-2 p-2 sm:mt-[1%] mt-[3rem] h-[20rem] md:h-auto hover:overflow-auto overflow-hidden w-full flex justify-center flex-row gap-3 flex-wrap'>
+        <div  className='m-auto border-4 border-blue-400 p-2 sm:mt-[1%] mt-[3rem] h-[20rem] md:h-auto hover:overflow-auto overflow-hidden w-full flex justify-center flex-row gap-3 flex-wrap'>
             <div className='shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] sm:w-[23%]  p-3 hover:shadow-none cursor-pointer'>
               <div className='flex flex-col gap-2'>
                 <h2 className='text-xl font-bold  text-center'>Fastness</h2>

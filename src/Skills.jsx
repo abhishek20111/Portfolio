@@ -37,8 +37,8 @@ const Skills = () => {
                     <p className="text-gray-400 font-normal text-center text-xl">A showcase of my technical expertise and skills.</p>
                 </div>
                 <div className="sm:w-[80%] gap-3 flex w-[98%] mx-auto bg-white">
-                    <div className="sm:max-h-[60vh] max-h-[73vh] ml-6">
-                        <p className="text-lg h-[100%] justify-between sm:h-[95%] md:h-full overflow-y-auto flex flex-wrap gap-4 sm:gap-10 text-gray-800">
+                    <div className="sm:border-0 border-2 p-2 sm:max-h-[60vh] max-h-[73vh] ml-1 sm:ml-6">
+                        <p className="text-lg h-[100%] justify-centre sm:h-[95%] md:h-full overflow-y-auto flex flex-wrap gap-4 sm:gap-10 text-gray-800">
                             {skills.map((skill, index) => (
                                 <div key={index} >
                                     <img src={skill[0]} className='h-[8rem] w-[8rem]' alt="" />
